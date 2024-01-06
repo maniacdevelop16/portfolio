@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: rgb(53, 53, 53);
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        h2 {
+            color: #2c3e50;
+            padding: 20px;
+            margin: 0;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .education-item {
+            display: flex;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        .education-box {
+            flex: 1;
+            padding: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .education-box:hover {
+            background-color: #ecf0f1;
+        }
+
+        .education-item img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .education-content {
+            flex: 2;
+        }
+
+        .education-item h3 {
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+
+        .education-item p {
+            color: #7f8c8d;
+            margin: 5px 0;
+        }
+
+        .education-details {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .education-details p {
+            color: #34495e;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Education</h1>
+    </header>
+
+    <section>
+        <div class="education-item">
+            <div class="education-box">
+                <img src="university1.jpg" alt="University Logo">
+            </div>
+            <div class="education-box education-content">
+                <h3>University Name 1</h3>
+                <p>Degree: Bachelor of Science in Computer Science</p>
+                <p>Year: 2018 - 2022</p>
+            </div>
+            <div class="education-box education-details">
+                <p>Thesis: "Lorem Ipsum Dolor Sit Amet"</p>
+                <p>Awards: Dean's List, Academic Excellence</p>
+            </div>
+        </div>
+
+        <div class="education-item">
+            <div class="education-box">
+                <img src="university2.jpg" alt="University Logo">
+            </div>
+            <div class="education-box education-content">
+                <h3>University Name 2</h3>
+                <p>Degree: Master of Science in Web Development</p>
+                <p>Year: 2022 - 2024</p>
+            </div>
+            <div class="education-box education-details">
+                <p>Research: "Advanced Web Technologies"</p>
+                <p>Internship: XYZ Tech, Full Stack Developer</p>
+            </div>
+        </div>
+
+        <!-- Add more education items as needed -->
+
+    </section>
+
+    <!-- Add more sections for skills, projects, etc. -->
+
+</body>
+</html>
